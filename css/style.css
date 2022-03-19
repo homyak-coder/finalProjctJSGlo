@@ -628,7 +628,7 @@ a.absolute {
 	margin: 15px 0 5px;
 }
 .num-section {
-	background: url("../images/num-section.jpg") 0 0 no-repeat;
+	background: url('../images/num-section.jpg') 0 0 no-repeat;
 	background-attachment: fixed;
 	color: #fff;
 	position: relative;
