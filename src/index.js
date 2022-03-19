@@ -1,5 +1,7 @@
-import firstModule from "./modules/first.js";
-import secondModule from "./modules/second.js";
+import modal from "./modules/modal.js";
+import menu from "./modules/menu.js";
+import music from "./modules/music";
 
-firstModule()
-secondModule()
+modal()
+menu()
+music()
