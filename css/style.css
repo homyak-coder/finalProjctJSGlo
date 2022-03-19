@@ -628,7 +628,7 @@ a.absolute {
 	margin: 15px 0 5px;
 }
 .num-section {
-	background: url(../images/num-section.jpg) 0 0 no-repeat;
+	background: url("../images/num-section.jpg") 0 0 no-repeat;
 	background-attachment: fixed;
 	color: #fff;
 	position: relative;
@@ -894,7 +894,7 @@ video#video_background {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../images/pattern2.png);
+	background: url(images/pattern2.png);
 	z-index: 1;
 }
 
@@ -1009,7 +1009,7 @@ video#video_background {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: url(../images/plus.png) 50% 50% no-repeat #ccc;
+	background: url("../images/plus.png") 50% 50% no-repeat #ccc;
 	color: #fff;
 	text-align: center;
 	line-height: 50px;
@@ -1019,7 +1019,7 @@ video#video_background {
 	transition: all 200ms ease-out;
 }
 .accordeon .element.active .title:before {
-	background: url(../images/minus.png) 50% 50% no-repeat #333;
+	background: url('../images/minus.png') 50% 50% no-repeat #333;
 }
 .accordeon > div:first-of-type .element-content {
 	display: block;
@@ -1037,7 +1037,7 @@ video#video_background {
 
 /**** steps section *****/
 .steps-section .img-wrapper {
-	background: url(../images/step.png) 50% 0 no-repeat #fff;
+	background: url('../images/step.png') 50% 0 no-repeat #fff;
 	width: 130px;
 	height: 70px;
 	text-align: center;
