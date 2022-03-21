@@ -4,6 +4,9 @@ const music =() => {
     const musicElements = musicMain.querySelectorAll('.element');
     const musicContents = musicMain.querySelectorAll('.element-content');
 
+    musicElements[0].classList.toggle('active');
+    musicContents[0].style.display = 'none';
+
     musicMain.addEventListener('click', (e) => {
         if (e.target.closest('.element')) {
             let currentMusic = e.target.closest('.element');
