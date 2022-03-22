@@ -1,5 +1,5 @@
-const sendForm = ({formId}) => {
-    const form = document.querySelector(formId);
+const sendForm = (form) => {
+    // const form = document.querySelector(formId);
     const statusBlock = document.createElement('div');
     const loadText = 'Идёт отравка...';
     const errorText = 'Ошибка';
@@ -10,7 +10,7 @@ const sendForm = ({formId}) => {
 
         return success;
     };
-
+Б
     const sendData = (data) => {
         return fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',

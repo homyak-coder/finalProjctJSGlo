@@ -33,7 +33,6 @@ const scrolling = () => {
             elem.addEventListener('click', function (event) {
                 event.preventDefault();
                 const topId = this.getAttribute('href');
-                console.log(topId);
                 document.querySelector(topId).scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'

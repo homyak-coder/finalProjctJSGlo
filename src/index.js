@@ -12,6 +12,15 @@ music();
 carousel();
 scrolling();
 topSlider();
-sendForm({formId: '[name=form-callback]' });
+// sendForm({formId: '[name=form-callback]' });
 validation();
-maskPhone()
+maskPhone();
+
+const allForms = document.querySelectorAll('[name=form-callback]');
+allForms.forEach((form) => {
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        console.log(form);
+        sendForm(form);
+    });
+});

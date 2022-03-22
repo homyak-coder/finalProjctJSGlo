@@ -6,7 +6,8 @@ const modal = () => {
     const buttonServices = document.querySelector('.button-services');
     const fancyButtons = document.querySelectorAll('.fancyboxModal');
 
-   const openModal = () => {
+   const openModal = (e) => {
+       e.preventDefault();
         modalCallback.style.display = 'block';
         modalOverlay.style.display = 'block';
    }
