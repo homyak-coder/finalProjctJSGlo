@@ -20,7 +20,6 @@ const allForms = document.querySelectorAll('[name=form-callback]');
 allForms.forEach((form) => {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
-        console.log(form);
         sendForm(form);
     });
 });

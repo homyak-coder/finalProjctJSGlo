@@ -10,7 +10,6 @@ const sendForm = (form) => {
 
         return success;
     };
-Б
     const sendData = (data) => {
         return fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
@@ -60,11 +59,7 @@ const sendForm = (form) => {
         if (!form) {
             throw new Error('В форме критическая ошибка!');
         }
-
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            submitForm();
-        });
+        submitForm();
     } catch(error) {
         console.log(error.message);
     }
